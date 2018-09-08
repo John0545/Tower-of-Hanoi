@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:theme="@style/AppTheme"
+    tools:context=".MainActivity"
+    android:orientation="horizontal"
+    android:animateLayoutChanges="true"
+    android:gravity="bottom|center_horizontal">
+
+
+    <LinearLayout
+        android:id="@+id/tower_1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_weight="3"
+        android:background="#FFEEDDDD"
+        android:gravity="bottom|center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/block_1"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#FF448844"
+            android:gravity="bottom|center"
+            android:text="1" />
+
+        <TextView
+            android:id="@+id/block_2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#FF444488"
+            android:gravity="bottom|center"
+            android:text="2" />
+
+        <TextView
+            android:id="@+id/block_3"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#FF884444"
+            android:gravity="bottom|center"
+            android:text="3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tower_2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_weight="3"
+        android:background="#FFDDEEDD"
+        android:gravity="bottom|fill_horizontal"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tower_3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_weight="3"
+        android:background="#FFDDDDEE"
+        android:gravity="bottom|center_horizontal"
+        android:orientation="vertical">
+
+    </LinearLayout>
+</LinearLayout>
